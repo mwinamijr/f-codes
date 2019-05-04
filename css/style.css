@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0; }
+  margin: 20;
+  padding: 20; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -27,10 +27,93 @@ p {
 a,
 a:hover,
 a:focus {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
   text-decoration: none;
   outline: 0 solid transparent;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 600;
   font-size: 14px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 40px;
+  background-color: #1f1f1f; }
+.footer .contact-info {
+  position: relative;
+  z-index: 1; 
+}
+.footer .contact-info a {
+  display: inline-block;
+  height: 40px;
+  padding: 0 30px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  border-right: 1px solid #4c4c4c; 
+}
+.footer .contact-info a span {
+  text-transform: uppercase; 
+}
+.footer .contact-info a:hover, .footer .contact-info a:focus {
+  color: #ffffff; 
+}
+
+.footer .follow-us {
+  position: relative;
+  z-index: 1; 
+  }
+.footer .follow-us span {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  text-transform: uppercase; 
+  }
+.footer .follow-us a {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  border-left: 1px solid #4c4c4c; }
+.footer .follow-us a span {
+  text-transform: uppercase; 
+}
+.footer .follow-us a:hover, .footer .follow-us a:focus {
+  color: #ffffff; 
+}
