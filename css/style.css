@@ -55,7 +55,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #111;
 }
@@ -132,6 +132,11 @@ li a:hover {
   letter-spacing: 0.3em;
 }
 
+.big-font{
+  font-size: 22px;
+  text-align: center;
+  color: blue;
+}
 .services
 {
   padding-top: 60px;
@@ -229,3 +234,23 @@ li a:hover {
   margin-left:-15px
 }
 
+.testmonial {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: white;
+}
+
+.h3 {
+  color: #1DA717;
+  padding: 0px 120px 0px 120px;
+}
+.testmonial p {
+  padding: 0px 120px 0px 120px;
+}
+.testmonial img {
+  float: left;
+  padding: 3px;
+  width: 100px;
+  border: solid 1px #4c4c4c;
+  border-radius: 50%;
+}
